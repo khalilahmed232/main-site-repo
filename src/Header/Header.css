@@ -1,0 +1,33 @@
+.Header {
+    color: red;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.BrandLogo,
+.BrandLogo a {
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+}
+.NavList {
+    width: 50%;
+}
+
+.NavList ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.NavList a {
+    text-decoration: none;
+    color: black;
+}
+
+.NavList li {
+    list-style: none;
+    flex-direction: column;
+}
