@@ -1,0 +1,34 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "How to start",
+            "content": "something something content"
+        },
+        {
+            "id": 2,
+            "title": "How to start",
+            "content": "something something content"
+        },
+        {
+            "id": 3,
+            "title": "How to start",
+            "content": "something something content"
+        },
+        {
+            "id": 4,
+            "title": "How to start",
+            "content": "something something content"
+        },
+        {
+            "id": 5,
+            "title": "How to start",
+            "content": "something something content"
+        },
+        {
+            "id": 6,
+            "title": "How to start",
+            "content": "something something content"
+        }
+    ]
+}
