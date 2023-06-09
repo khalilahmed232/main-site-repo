@@ -1,0 +1,11 @@
+:root {
+  --primary-background-color: #f5f3e2;
+  --secondary-background-color: #e9a883;
+  --main-brand-color: #6cafb8;
+  --dark-accent-color: #4d769e;
+  --dark-shades-color: #30364d;
+}
+
+body {
+  background-color: var(--primary-background-color);
+}

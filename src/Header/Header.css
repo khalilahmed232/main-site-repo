@@ -1,33 +1,49 @@
 .Header {
-    color: red;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
+  color: red;
+  min-height: 60px;
+  height: 7vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--dark-shades-color);
 }
 
-.BrandLogo,
-.BrandLogo a {
-    font-size: 3rem;
-    color: black;
-    text-decoration: none;
+.Header > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.NavList {
-    width: 50%;
+
+.BrandLogo {
+  background-color: var(--main-brand-color);
+}
+
+.BrandLogo a {
+  font-size: 2rem;
+  color: var(--primary-background-color);
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 10px 20px;
+}
+.Header > .NavList {
+  width: 40%;
 }
 
 .NavList ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
-
 .NavList a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .NavList li {
-    list-style: none;
-    flex-direction: column;
+  list-style: none;
+  flex-direction: column;
 }

@@ -1,0 +1,30 @@
+.HomePage {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.HomePageSection {
+  min-height: 100px;
+  text-align: center;
+  font-size: 1rem;
+  background-color: cyan;
+  cursor: pointer;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--dark-accent-color);
+  color: var(--primary-background-color);
+  font-weight: bold;
+}
+.HomePageSection.BlogSection {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+}
