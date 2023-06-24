@@ -11,12 +11,12 @@ function HomePage() {
         sectionTitle="Blogs"
       ></HomePageSection>
       <HomePageSection
-        linkUrl="https://blog.khalil232.com"
+        linkUrl="https://apps.khalil232.com"
         className="AppsSection"
         sectionTitle="Apps"
       ></HomePageSection>
       <HomePageSection
-        linkUrl="https://blog.khalil232.com"
+        linkUrl="https://khalil232.com/about"
         className="AboutSection"
         sectionTitle="About"
       ></HomePageSection>
